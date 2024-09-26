@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon cards</title>
+    <link rel="stylesheet" href="mujstyle.css">
+</head>
+<body>
+    <div id="main">
+    <div id="card1" class="card">
+      <img src="https://plus.unsplash.com/premium_photo-1722848601360-53b9c3b606c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9rZW1vbiUyMGNoYXJpemF8ZW58MHx8MHx8fDA%3D">  
+    </div>
+    <div id="card2" class="card">
+        <img src="https://images.unsplash.com/photo-1643725173053-ed68676f1878?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBva2Vtb24lMjBjaGFyaXphfGVufDB8fDB8fHww" alt="">
+    </div>
+    <div id="card3" class="card">
+        <img src="https://images.unsplash.com/photo-1610692567145-2c1fe6bf9c3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBva2Vtb24lMjBiYWxsfGVufDB8fDB8fHww" alt="">
+    </div>
+    <div id="card4" class="card">
+        <img src="https://images.unsplash.com/photo-1609372332255-611485350f25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9rZW1vbnN8ZW58MHx8MHx8fDA%3D">
+    </div>
+    </div>
+    <style>
+    *{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 300px;
+    width: 200px;
+    border-color: black;
+    border-width: 50%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+
+}
+.card{
+    height: 300px;
+    width: 200px;
+    border-radius: 2px solid black;
+    position: absolute;
+     display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 50%;
+    
+    /* transform: translate(-30%,-30%); */
+    
+
+    
+
+}
+#card1{
+    background-color: blue;
+    border-color: black;
+    border-width: 100%;
+    rotate: -8deg;
+    z-index: 3;
+    border-radius: 5%;
+
+}
+#card2{
+    z-index: 2;
+    background-color:yellow;
+    border-color: black;
+    border-width: 100%;
+    rotate: -16deg;
+    border-radius: 5%;
+}
+#card3{
+    z-index: 1;
+    rotate: -24deg;
+    background-color: violet;
+    border-color: black;
+    border-width: 100%;
+    border-radius: 5%;
+}
+#card4{
+    z-index: 4;
+    background-color: red;
+    border-color: black;
+    border-width: 100%;
+    border-radius: 5%;
+}
+img{
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 5%;
+    object-fit: cover;
+
+}
+#card1:hover{
+    z-index: 10;
+}
+#card2:hover{
+    z-index: 10;
+}
+#card3:hover{
+    z-index: 10;
+}
+#card4:hover{
+    z-index: 10;
+}
+    </style>
+</body>
+</html>
